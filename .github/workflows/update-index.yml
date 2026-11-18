@@ -1,0 +1,46 @@
+name: Update index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.json'
+      - 'script/update_index.mjs'
+      - '.github/workflows/update-index.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate index.json and README table
+        run: node script/update_index.mjs
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- index.json README.md; then
+            echo "index.json / README.md 无变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json README.md
+          git commit -m "chore: update index.json and README.md"
+          git push
