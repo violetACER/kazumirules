@@ -1,0 +1,18 @@
+kazumi-rules
+============
+
+本仓库包含两类内容：
+
+1. 本仓库自行维护的规则（`yinghuadm.json`、`omofuns.json`、`akianime.json` 等），
+   版权归 violetACER 所有，按 MIT 许可分发。
+
+2. 从 Predidit/KazumiRules（https://github.com/Predidit/KazumiRules）同步的社区规则。
+   上游项目使用 MIT 许可：
+
+       Copyright (c) 2024 Predidit
+
+   这些规则文件保留上游的 MIT 许可与署名。若某个文件名与上游同名，
+   以本仓库自行维护的版本为准（例如 akianime.json 已由本仓库独立验证并维护）。
+
+同步方式：复制上游根目录下的 `*.json`（跳过 `index.json` 与同名文件），
+再运行 `node script/update_index.mjs` 重新生成 `index.json` 与 README 规则表。

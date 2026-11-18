@@ -49,10 +49,36 @@ node script/update_index.mjs
 <!-- RULES:START -->
 | Name | Version | Last Update |
 |------|---------|-------------|
+| 7sefun | 1.3 | 2026-11-18 |
+| aafun | 1.2 | 2026-11-18 |
+| AGE | 1.6 | 2026-11-18 |
 | akianime | 1.0 | 2026-11-18 |
+| baimao | 1.0 | 2026-11-18 |
+| dalvdm | 1.2 | 2026-11-18 |
+| DM84 | 1.4 | 2026-11-18 |
+| ezdmw | 1.2 | 2026-11-18 |
+| giriGiriLove | 2.7 | 2026-11-18 |
+| LMM | 2.4 | 2026-11-18 |
+| mgnacg | 1.2 | 2026-11-18 |
+| moonci | 1.1 | 2026-11-18 |
+| mutefun | 1.6 | 2026-11-18 |
+| MXdm | 2.4 | 2026-11-18 |
 | omofuns | 1.0 | 2026-11-18 |
+| sorani | 1.0 | 2026-11-18 |
+| TvTFun | 1.3 | 2026-11-18 |
+| xfdmneo | 1.1 | 2026-11-18 |
+| xfdmnext | 1.1 | 2026-11-18 |
 | yinghuadm | 1.0 | 2026-11-18 |
 <!-- RULES:END -->
+
+## 规则来源
+
+仓库里的规则分两类：
+
+- **本仓库自行维护并实测**：`yinghuadm`、`omofuns`、`akianime`（含选择器与反爬配置的完整验证记录，见各自站点目录下的说明）。
+- **同步自社区仓库**：[Predidit/KazumiRules](https://github.com/Predidit/KazumiRules)，MIT 许可，Copyright (c) 2024 Predidit。同步时跳过 `index.json` 与同名文件，保留上游规则文件原样。
+
+署名与许可见 [NOTICE](NOTICE)。若上游规则与本站维护版本同名（目前是 `akianime`），以本站版本为准。
 
 ## License
 
