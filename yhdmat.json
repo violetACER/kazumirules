@@ -1,0 +1,23 @@
+{
+  "api": "1",
+  "type": "anime",
+  "name": "yhdmat",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://yhdm.at/",
+  "searchURL": "https://yhdm.at/search?q=@keyword",
+  "searchList": "//div[@id='search_list']/ul/li",
+  "searchName": "//h6/a",
+  "searchResult": "//h6/a",
+  "chapterRoads": "//div[@class='ep-panel mb-3']",
+  "chapterResult": "//ul/li/a",
+  "referer": "",
+  "searchMode": "xpath",
+  "chapterMode": "xpath"
+}

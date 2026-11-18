@@ -68,6 +68,7 @@ node script/update_index.mjs
 | TvTFun | 1.3 | 2026-11-18 |
 | xfdmneo | 1.1 | 2026-11-18 |
 | xfdmnext | 1.1 | 2026-11-18 |
+| yhdmat | 1.0 | 2026-11-18 |
 | yinghuadm | 1.0 | 2026-11-18 |
 <!-- RULES:END -->
 
