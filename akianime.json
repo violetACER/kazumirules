@@ -1,0 +1,23 @@
+{
+  "api": "1",
+  "type": "anime",
+  "name": "akianime",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://www.akianime.cc/",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "searchURL": "https://www.akianime.cc/bgmsearch/-------------.html?wd=@keyword",
+  "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
+  "searchName": "//h3[@class='slide-info-title hide']",
+  "searchResult": "//div[@class='detail-info rel flex-auto lightSpeedIn']/a",
+  "chapterRoads": "//div[@class='anthology-list-box none']",
+  "chapterResult": "//ul[@class='anthology-list-play size']/li/a",
+  "referer": ""
+}

@@ -49,6 +49,7 @@ node script/update_index.mjs
 <!-- RULES:START -->
 | Name | Version | Last Update |
 |------|---------|-------------|
+| akianime | 1.0 | 2026-11-18 |
 | omofuns | 1.0 | 2026-11-18 |
 | yinghuadm | 1.0 | 2026-11-18 |
 <!-- RULES:END -->

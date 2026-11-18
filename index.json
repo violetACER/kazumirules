@@ -1,5 +1,13 @@
 [
   {
+    "name": "akianime",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1795005441138
+  },
+  {
     "name": "omofuns",
     "version": "1.0",
     "useNativePlayer": true,
