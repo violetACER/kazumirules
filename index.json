@@ -1,5 +1,13 @@
 [
   {
+    "name": "omofuns",
+    "version": "1.0",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": true,
+    "author": "",
+    "lastUpdate": 1795005180972
+  },
+  {
     "name": "yinghuadm",
     "version": "1.0",
     "useNativePlayer": true,

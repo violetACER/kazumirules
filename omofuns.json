@@ -1,0 +1,33 @@
+{
+  "api": "1",
+  "type": "anime",
+  "name": "omofuns",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://www.omofuns.com/",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "searchURL": "https://www.omofuns.com/search/-------------.html?wd=@keyword",
+  "searchList": "//li[@class='col-md-6 col-sm-4 col-xs-3']",
+  "searchName": "//h4[@class='title text-overflow']/a",
+  "searchResult": "//h4[@class='title text-overflow']/a",
+  "chapterRoads": "//div[@class='tab-pane in clearfix']",
+  "chapterResult": "//ul[@class='play-list-content']/li/a",
+  "referer": "",
+  "antiCrawlerConfig": {
+    "enabled": true,
+    "captchaType": 2,
+    "captchaDetectType": 2,
+    "captchaDetectValue": "因访问过多",
+    "captchaImage": "",
+    "captchaInput": "",
+    "captchaButton": "//input[@class='verify_submit btnverify']",
+    "captchaScript": ""
+  }
+}
