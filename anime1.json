@@ -1,0 +1,26 @@
+{
+  "api": "1",
+  "type": "anime",
+  "name": "anime1",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://anime1.cc/",
+  "referer": "",
+  "searchURL": "https://anime1.cc/search?q=@keyword",
+  "searchList": "//div[@class='table-pane']/div[@class='table-item']",
+  "searchName": "//div[@class='title']",
+  "searchResult": "//a",
+  "chapterRoads": "//ul[@class='eps']",
+  "chapterResult": "//a[@class='e-aa mr-2']",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": false
+  }
+}
