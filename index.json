@@ -64,6 +64,14 @@
     "lastUpdate": 1795006407000
   },
   {
+    "name": "FQDM",
+    "version": "2.1",
+    "useNativePlayer": true,
+    "antiCrawlerEnabled": false,
+    "author": "",
+    "lastUpdate": 1795006407000
+  },
+  {
     "name": "giriGiriLove",
     "version": "2.7",
     "useNativePlayer": true,
