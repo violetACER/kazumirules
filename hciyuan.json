@@ -1,0 +1,26 @@
+{
+  "api": "1",
+  "type": "anime",
+  "name": "hciyuan",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+  "baseURL": "https://h-ciyuan.com/",
+  "searchURL": "https://h-ciyuan.com/?s=@keyword",
+  "searchList": "//div[@class='gridview-grid-post-details']",
+  "searchName": "//h3[@class='gridview-grid-post-title']/a",
+  "searchResult": "//h3[@class='gridview-grid-post-title']/a",
+  "chapterRoads": "//html",
+  "chapterResult": "//link[@rel='canonical']",
+  "referer": "",
+  "searchMode": "xpath",
+  "chapterMode": "xpath",
+  "antiCrawlerConfig": {
+    "enabled": false
+  }
+}

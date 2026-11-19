@@ -61,6 +61,7 @@ node script/update_index.mjs
 | ezdmw | 1.2 | 2026-11-18 |
 | FQDM | 2.1 | 2026-11-19 |
 | giriGiriLove | 2.7 | 2026-11-18 |
+| hciyuan | 1.0 | 2026-11-19 |
 | LMM | 2.4 | 2026-11-18 |
 | mgnacg | 1.2 | 2026-11-18 |
 | moonci | 1.1 | 2026-11-18 |
