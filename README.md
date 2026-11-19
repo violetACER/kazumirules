@@ -49,7 +49,7 @@ node script/update_index.mjs
 <!-- RULES:START -->
 | Name | Version | Last Update |
 |------|---------|-------------|
-| 7sefun | 2.0 | 2026-11-18 |
+| 7sefun | 2.0 | 2026-11-19 |
 | aafun | 1.2 | 2026-11-18 |
 | AGE | 1.6 | 2026-11-18 |
 | akianime | 1.0 | 2026-11-18 |
