@@ -1,0 +1,40 @@
+{
+  "api": "9",
+  "type": "anime",
+  "name": "animoe",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://animoe.org/",
+  "searchURL": "",
+  "searchList": "",
+  "searchName": "",
+  "searchResult": "",
+  "chapterRoads": "//div[@class='module-list sort-list tab-list his-tab-list']",
+  "chapterResult": "//a[@class='module-play-list-link']",
+  "referer": "",
+  "searchMode": "api",
+  "chapterMode": "xpath",
+  "searchApiConfig": {
+    "request": {
+      "method": "GET",
+      "url": "https://animoe.org/index.php/ajax/suggest",
+      "query": {
+        "mid": "1",
+        "wd": "@keyword"
+      }
+    },
+    "listPath": "$.list[*]",
+    "namePath": "$.name",
+    "sourcePath": "$.id",
+    "sourceTemplate": "https://animoe.org/info/@source.html"
+  },
+  "antiCrawlerConfig": {
+    "enabled": false
+  }
+}
