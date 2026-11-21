@@ -55,7 +55,7 @@ node script/update_index.mjs
 | akianime | 1.0 | 2026-11-18 |
 | anime1 | 1.0 | 2026-11-19 |
 | animoe | 1.0 | 2026-11-19 |
-| avbebe | 1.0 | 2026-11-19 |
+| avbebe | 1.1 | 2026-11-19 |
 | baimao | 1.0 | 2026-11-18 |
 | dalvdm | 1.2 | 2026-11-18 |
 | DM84 | 1.4 | 2026-11-18 |

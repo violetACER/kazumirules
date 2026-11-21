@@ -2,7 +2,7 @@
   "api": "1",
   "type": "anime",
   "name": "avbebe",
-  "version": "1.0",
+  "version": "1.1",
   "muliSources": true,
   "useWebview": true,
   "useNativePlayer": true,
@@ -17,7 +17,7 @@
   "searchResult": "//h3[@class='jeg_post_title']/a",
   "chapterRoads": "//html",
   "chapterResult": "//link[@rel='canonical']",
-  "referer": "",
+  "referer": "https://avbebe.com/",
   "searchMode": "xpath",
   "chapterMode": "xpath",
   "antiCrawlerConfig": {
