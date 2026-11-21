@@ -62,7 +62,6 @@ node script/update_index.mjs
 | ezdmw | 1.2 | 2026-11-18 |
 | FQDM | 2.1 | 2026-11-19 |
 | giriGiriLove | 2.7 | 2026-11-18 |
-| hciyuan | 1.0 | 2026-11-19 |
 | LMM | 2.4 | 2026-11-18 |
 | mgnacg | 1.2 | 2026-11-18 |
 | moonci | 1.1 | 2026-11-18 |
@@ -86,6 +85,12 @@ node script/update_index.mjs
 - **同步自社区仓库**：[Predidit/KazumiRules](https://github.com/Predidit/KazumiRules)，MIT 许可，Copyright (c) 2024 Predidit。同步时跳过 `index.json` 与同名文件，保留上游规则文件原样。
 
 署名与许可见 [NOTICE](NOTICE)。若上游规则与本站维护版本同名（目前是 `akianime`），以本站版本为准。
+
+## 已废弃规则
+
+文件保留，但已加 `"deprecated": true`，不会出现在上面的规则表与 `index.json` 里：
+
+- ~~`hciyuan`（H次元，v1.0）~~ — 站点在 Cloudflare Bot Management 后面，按 TLS 指纹与请求头组合拦截非浏览器客户端。实测：纯 Python / curl_cffi 能拿到结果，node fetch 与 Kazumi 的 dio 客户端被挡（403 挑战页或连接重置），而 XPath 规则无法给搜索请求自定义请求头，因此 **在 Kazumi 里任何关键词都会检索失败**。页面结构本身没变（`?s=` + `gridview-grid-post-details` 卡片 + canonical 作单集锚点），若日后站点放开可直接恢复。
 
 ## License
 
