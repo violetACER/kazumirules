@@ -55,7 +55,6 @@ node script/update_index.mjs
 | akianime | 1.0 | 2026-11-18 |
 | anime1 | 1.0 | 2026-11-19 |
 | animoe | 1.0 | 2026-11-19 |
-| avbebe | 1.1 | 2026-11-21 |
 | baimao | 1.0 | 2026-11-18 |
 | dalvdm | 1.2 | 2026-11-18 |
 | DM84 | 1.4 | 2026-11-18 |
@@ -91,6 +90,8 @@ node script/update_index.mjs
 文件保留，但已加 `"deprecated": true`，不会出现在上面的规则表与 `index.json` 里：
 
 - ~~`hciyuan`（H次元，v1.0）~~ — 站点在 Cloudflare Bot Management 后面，按 TLS 指纹与请求头组合拦截非浏览器客户端。实测：纯 Python / curl_cffi 能拿到结果，node fetch 与 Kazumi 的 dio 客户端被挡（403 挑战页或连接重置），而 XPath 规则无法给搜索请求自定义请求头，因此 **在 Kazumi 里任何关键词都会检索失败**。页面结构本身没变（`?s=` + `gridview-grid-post-details` 卡片 + canonical 作单集锚点），若日后站点放开可直接恢复。
+
+- ~~`avbebe`（Avbebe，v1.1）~~ — 同样在 Cloudflare 后面，对 Kazumi 的客户端直接返回 403。2026-11-21 用户端 Kazumi 日志实证：`GET https://avbebe.com/?s=…` 多次 `403`；详情页 `GET https://avbebe.com/archives/349354` 被取消后报 `ChapterErrorException: avbebe chapter query failed`（拿到 0 条线路）。规则结构本身已验证可用（canonical 当单集锚点 + `referer` 处理 52cute 防盗链），站点放开后可直接恢复。
 
 ## License
 

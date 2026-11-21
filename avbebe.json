@@ -22,5 +22,6 @@
   "chapterMode": "xpath",
   "antiCrawlerConfig": {
     "enabled": false
-  }
+  },
+  "deprecated": true
 }
